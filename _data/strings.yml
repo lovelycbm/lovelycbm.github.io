@@ -10,101 +10,100 @@
 
 # Free version
 # ---------------------------------------------------------------------------------------
-home:                  Home
-pages:                 Pages
-posts:                 Posts
-about:                 About
-related_posts:         Related Posts
-other_projects:        Other Projects
-comments:              Comments
-jump_to:               Jump to
-navigation:            Navigation
-social:                Social
-links:                 Links
-links_icon:            'icon-link'
-pagination:            Pagination
-newer:                 Newer
-older:                 Older
-forward:               Forward
-back:                  Back
-permalink:             Permalink
-permalink_icon:        'content-hash'
-templates:             Templates (for web app)
-present:               present
-toc:                   Table of Contents
-note:                  Note
-description:           Description
-search:                Search
-search_placeholder:    Type something…
+home: Home
+pages: 페이지
+posts: 포스트
+about: 소개
+related_posts: 관련 포스트
+other_projects: 다른 프로젝트
+comments: 댓글
+jump_to: Jump to
+navigation: 네비게이션
+social: 소셜
+links: 링크
+links_icon: "icon-link"
+pagination: 페이지
+newer: 다음
+older: 이전
+forward: 앞으로
+back: 뒤로
+permalink: Permalink
+permalink_icon: "content-hash"
+templates: Templates (for web app)
+present: present
+toc: 컨텐츠 목차
+note: 노트
+description: 설명
+search: 검색
+search_placeholder: 검색어를 입력하세요...
 
-loading:               Loading…
-redirecting:           Redirecting…
+loading: 로딩...
+redirecting: 리다이렉팅....
 
-continue_reading:      >
-  Continue reading <!--post_title-->
+continue_reading: >
+  <!--post_title--> 계속 읽기
 
 cookies_banner:
-  text:                >
-    This site uses cookies. [Cookies Policy](/cookies-policy/).
-  okay:                Okay
+  text: >
+    쿠키 이용 동의. [Cookies Policy](/cookies-policy/).
+  okay: 확인
 
 not_found:
-  title:               '404: Page Not Found'
-  message:             |
+  title: "404: 페이지를 찾을 수 없음"
+  message: |
     Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
     <!--home_link--> to try finding it again.
-  home_link:           Head back home
+  home_link: Head back home
 
 offline:
-  title:               'You are Offline'
-  message:             |
+  title: "You are Offline"
+  message: |
     Sorry, but you appear to be offline and this page has not been prepared for offline viewing.
     <!--home_link--> to try finding another page.
-  home_link:           Head back home
+  home_link: Head back home
 
 error:
-  title:               Error
-  message:             |
+  title: Error
+  message: |
     Sorry, an error occurred while loading <!--link-->.
 
 # Separators
 # ---------------------------------------------------------------------------------------
-posted:                'Posted'
-last_modified_at:      'Last modified at'
-last_modified_at_icon: 'icon-history'
-colon:                 ':'
-separator:             '|'
-category_start:        'in '
-category_spearator:    ' / '
-tag_start:             'on '
-tag_separator:         ', '
-from_to_separator:     '–'
-breadcrumbs_home:      'home'
-breadcrumbs_separator: '/'
+posted: "Posted"
+last_modified_at: "최종 수정 "
+last_modified_at_icon: "icon-history"
+colon: ":"
+separator: "|"
+category_start: "in "
+category_spearator: " / "
+tag_start: "on "
+tag_separator: ", "
+from_to_separator: "–"
+breadcrumbs_home: "home"
+breadcrumbs_separator: "/"
 
 # Date formats
 # ---------------------------------------------------------------------------------------
 date_formats:
-  post:                '%d %b %Y'
-  last_modified_at:    '%Y-%m-%d'
-  related_post:        '%d %b %Y'
-  list_group_by:       '%Y'
-  list_entry:          '%d %b'
-  project:             '%Y'
-  projects_group_by:   '%Y'
-  resume:              '%b %Y'
-
+  post: " %d %b %Y"
+  last_modified_at: "%Y-%m-%d"
+  related_post: "%Y %b %d"
+  list_group_by: "%Y"
+  list_entry: "%b %d"
+  project: "%Y"
+  projects_group_by: "%Y"
+  resume: "%Y %b"
 
 # PRO Version
 # ---------------------------------------------------------------------------------------
 # If you don't own the PRO version of Hydejack, modifying these will have no effect.
 
 tinyletter:
-  title:               Commercial break
-  label:               Email
-  placeholder:         Enter your email address
-  button:              Subscribe
-  message:             |
+  title: Commercial break
+  label: Email
+  placeholder: Enter your email address
+  button: Subscribe
+  message: |
     Pay the *iron price* for this theme by adding yourself to the mailing list.
     Receive development updates, advanced tutorials,
     and anything else I can come up with as it relates to **Hydejack**.
@@ -115,54 +114,54 @@ tinyletter:
     {:.faded}
 
 welcome:
-  more_projects:       See <!--projects_title--> for more
-  more_posts:          See <!--posts_title--> for more
+  more_projects: See <!--projects_title--> for more
+  more_posts: See <!--posts_title--> for more
 
 resume:
-  location:            Location
-  location_separator:  ', '
-  email:               Email
-  phone:               Phone
-  website:             Website
-  work:                Experience
-  work_title:          <!--position--> at <!--company-->
-  highlights:          Highlights
-  volunteer:           Volunteer
-  volunteer_title:     <!--position--> at <!--organization-->
-  education:           Education
-  education_title:     <!--study_type--> in <!--area--> from <!--institution--> with GPA of <!--gpa-->
-  courses:             Courses
-  awards:              Awards
-  awards_title:        <!--title--> from <!--awarder-->
-  publications:        Publications
-  publications_title:  <!--name--> by <!--publisher-->
-  references:          References
-  languages:           Languages
-  fluency:             Fluency
-  skills:              Skills
-  level:               Level
-  interests:           Interests
-  summary:             Summary
-  keywords:            Keywords
-  print:               Print
-  download_pdf:        PDF
-  download_vcf:        vCard
-  download_json:       JSON
+  location: 위치
+  location_separator: ", "
+  email: 이메일
+  phone: 휴대전화
+  website: 웹사이트
+  work: Experience
+  work_title: <!--position--> at <!--company-->
+  highlights: Highlights
+  volunteer: Volunteer
+  volunteer_title: <!--position--> at <!--organization-->
+  education: Education
+  education_title: <!--study_type--> in <!--area--> from <!--institution--> with GPA of <!--gpa-->
+  courses: Courses
+  awards: Awards
+  awards_title: <!--title--> from <!--awarder-->
+  publications: Publications
+  publications_title: <!--name--> by <!--publisher-->
+  references: References
+  languages: Languages
+  fluency: Fluency
+  skills: Skills
+  level: Level
+  interests: Interests
+  summary: 요약
+  keywords: Keywords
+  print: Print
+  download_pdf: PDF
+  download_vcf: vCard
+  download_json: JSON
   icons:
-    fallback:          icon-link
-    location:          icon-location
-    born:              icon-quill
-    citizenship:       icon-flag
-    maritalStatus:     icon-man-woman
-    email:             icon-envelop
-    phone:             icon-phone
-    website:           icon-home3
-    work:              icon-briefcase
-    volunteer:         icon-earth
-    education:         icon-library
-    awards:            icon-trophy
-    publications:      icon-book
-    references:        icon-quotes-right
-    languages:         icon-bubbles
-    skills:            icon-wrench
-    interests:         icon-heart
+    fallback: icon-link
+    location: icon-location
+    born: icon-quill
+    citizenship: icon-flag
+    maritalStatus: icon-man-woman
+    email: icon-envelop
+    phone: icon-phone
+    website: icon-home3
+    work: icon-briefcase
+    volunteer: icon-earth
+    education: icon-library
+    awards: icon-trophy
+    publications: icon-book
+    references: icon-quotes-right
+    languages: icon-bubbles
+    skills: icon-wrench
+    interests: icon-heart

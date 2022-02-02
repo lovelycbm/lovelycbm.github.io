@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+url: https://lovelycbm.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -35,7 +35,7 @@ keywords: [개발, React Native, Nest.js, Unity3d, Typescript, Go]
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo: /assets/img/logo.png
+logo: https://avatars.githubusercontent.com/u/46586390?v=4
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -47,27 +47,25 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: Example
-    url: /example/
-  - title: Documentation
-    url: /docs/
   - title: About
     url: /about/
   - title: React native
     url: /react-native/
+  - title: Dev Story
+    url: /dev-story/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title: LICENSE
-    url: /LICENSE/
-  - title: NOTICE
-    url: /NOTICE/
-  - title: CHANGELOG
-    url: /CHANGELOG/
+  # - title: LICENSE
+  #   url: /LICENSE/
+  # - title: NOTICE
+  #   url: /NOTICE/
+  # - title: CHANGELOG
+  #   url: /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright: © 2022. All rights reserved.
+copyright: © 2022. BONGMUN CHOIAll rights reserved.
 
 # Format of the permalinks
 permalink: /:categories/:year-:month-:day-:title/
@@ -79,7 +77,7 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9.1.5
 
 # Customizaton
@@ -135,9 +133,9 @@ defaults:
 
   # # You can use the following to enable comments on all posts.
   # - scope:
-  #     type:            posts
+  #     type: posts
   #   values:
-  #     comments:        true
+  #     comments: true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
@@ -171,7 +169,7 @@ kramdown:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <username>
+# disqus: lovelycbm
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -411,4 +409,4 @@ jekyll_compose:
         path: /assets/img/sidebar-bg.jpg
       links:
         - title: Project Link
-          url: https://lovelycbm.github.io
+          url: https://example.com
