@@ -9,7 +9,7 @@ hide_description: true
 
 <!--author-->
 
-## Edu
+## Edc
 
 - 전남대학교 전자컴퓨터공학부 졸업 (2012)
 
