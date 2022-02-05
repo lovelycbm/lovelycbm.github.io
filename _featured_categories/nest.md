@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: react-native
+title: nestJS
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: react-native
+slug: nest
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  리액트 네이티브 개발 관련 다양한 경험 및 삽질 정보를 제공합니다.
+  NestJS 관련 내역 정리
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
