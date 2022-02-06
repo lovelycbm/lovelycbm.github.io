@@ -81,8 +81,8 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
-remote_theme: hydecorp/hydejack@v9.1.5
+theme: jekyll-theme-hydejack
+#remote_theme: hydecorp/hydejack@v9.1.5
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
@@ -114,6 +114,11 @@ font_code: Fira Code, Menlo, Monaco, Consolas, monospace;
 defaults:
   # You can use this to provide a default accent color and background for
   # all pages under a given path:
+  - scope:
+      type: posts
+    values:
+      comments: true
+
   - scope:
       path: hyde/
     values:
@@ -173,7 +178,14 @@ kramdown:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus: lovelycbm
+comments:
+  provider: utterances
+
+utterances:
+  repo: "lovelycbm/lovelycbm.github.io"
+  issue-term: "pathname"
+  label: "Comments"
+  theme: "github-light"
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
